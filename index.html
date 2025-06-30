@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale:1.0">
+  <title>Projecto</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+  <header>
+    <nav class="nav_top">
+      <a href="#"><img src="assets//book-closed-svgrepo-com.svg" class="nav_logo"></img></a>
+
+      <div class="nav_menu">
+        <a href="templates/first_page.html" class="nav_page">Catálogo</a>
+        <a href="templates/second_page.html" class="nav_page">Libros Ilustrados</a>
+        <a href="templates/third_page.html" class="nav_page">Edición Especial</a>
+        <a href="templates/contact_page.html" class="nav_page">Contacto</a>
+      </div>
+    </nav>
+    
+    <div class="img_container">
+      <img src="../assets/nguyen-minh-kdEPAOo8N0w-unsplash.jpg" class="header_img"></img>
+    </div>
+
+  </header>
+    
+  <main>
+    <div class="section_intr">
+      <h2>Bienvenidos al Refugio Literario, tu rincón favorito.</h2>
+      <p>En nuestra librería encontrarás una cuidada selección de libros para todas las edades y gustos: desde los clásicos que marcaron época hasta las novedades más esperadas. Ya sea que busques sumergirte en una novela, descubrir un nuevo autor o regalar una historia inolvidable, estamos aquí para acompañarte en cada página.</p>
+    </div>
+
+    <div class="section_dir">
+      <a class="card_dir" href="templates/first_page.html">
+        <img src="assets/mirza-polat-Tr2i92s8abc-unsplash.jpg" class="card_img">
+        <div class="card_overlay">
+          <h4>CATÁLOGO</h4>
+        </div>
+      </a>
+
+      <a class="card_dir" href="templates/second_page.html">
+        <img src="assets/micheile-henderson-VJ02sF30nog-unsplash.jpg" class="card_img">
+        <div class="card_overlay">
+          <h4>LIBROS ILUSTRADOS</h4>
+        </div>
+      </a>
+
+      <a class="card_dir" href="templates/third_page.html">
+        <img src="assets/trung-manh-cong-VpUfWrEUlZ4-unsplash.jpg" class="card_img">
+        <div class="card_overlay">
+          <h4>LIBROS DE COLECCIÓN</h4>
+        </div>
+      </a>
+    </div>
+
+    <div class="section_contact">
+      <div class="card_contact">
+        <h3 style="padding-top: 5px;" class="form_list">Envíanos un mensaje</h3>
+        <form action="#" method="POST">
+          <div class="form_list"><input placeholder="Nombre" type="text" id="name" name="name" required></div>
+          <div class="form_list"><input placeholder="Correo Electrónico" type="email" id="email" name="email" required></div>
+          <div class="form_list"><textarea id="message" name="message" rows="5" required></textarea></div>
+          <div class="button_container"><button class="button shrink" type="submit">Enviar Mensaje</button></div>
+        </form>
+      </div>
+    </div>
+  </main>
+
+  <footer>    
+    <nav class="nav_bottom">
+      <a href="#">
+        <img class="nav_logo" src="assets//book-closed-svgrepo-com.svg"></img>
+      </a>
+
+      <div class="nav_column">
+        <h3>Enlaces</h3>
+        <a href="templates/first_page.html" class="nav_list">Ofertas</a>
+        <a href="templates/second_page.html" class="nav_list">Bestsellers</a>
+        <a href="templates/third_page.html" class="nav_list">Colecciones</a>
+      </div>
+
+      <div class="nav_column">
+        <h3>Ayuda</h3>
+        <a href="" class="nav_list">Nosotros</a>
+        <a href="" class="nav_list">Sucursales</a>
+        <a href="" class="nav_list">Métodos de envío</a>
+        <a href="" class="nav_list">Medios de pago</a>
+      </div>
+
+      <div class="nav_column">
+        <h3>Descarga la App</h3>
+        <a href="" class="nav_list">App Store</a>
+        <a href="" class="nav_list">Google Play</a>
+        <a href="" class="nav_list" style="font-size: medium; text-transform: uppercase;">Preguntas Frecuentes</a>
+        <a href="" class="nav_list" style="font-size: medium; text-transform: uppercase;">Términos y Condiciones</a>
+      </div>
+    </nav>
+  </footer>
+</body>
+</html>
